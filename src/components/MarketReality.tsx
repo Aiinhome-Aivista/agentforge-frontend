@@ -5,19 +5,19 @@ import { MessageSquare, Wrench, Zap } from 'lucide-react';
 const MarketReality = () => {
   const gaps = [
     {
-      title: 'The "Advice" Gap',
+      title: 'Advice',
       subtitle: 'Traditional Consulting',
       description: 'High-level strategy that often ends with a recommendation, leaving the execution burden on the client.',
       icon: <MessageSquare className="w-6 h-6 text-emerald-400" />,
     },
     {
-      title: 'The "Tooling" Gap',
+      title: 'Tooling',
       subtitle: 'Product & SaaS',
       description: 'Powerful features that provide the "how," but still require manual human effort to drive the "what."',
       icon: <Wrench className="w-6 h-6 text-cyan-400" />,
     },
     {
-      title: 'The "Agility" Gap',
+      title: 'Agility',
       subtitle: 'System Integrators',
       description: 'Custom builds that are robust but often too rigid to keep pace with the speed of agentic evolution.',
       icon: <Zap className="w-6 h-6 text-emerald-400" />,
