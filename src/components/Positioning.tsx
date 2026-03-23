@@ -92,15 +92,7 @@ const Positioning = () => {
                   </h3>
 
                   {card.highlight ? (
-                    <div className="space-y-6">
-                      <div className="w-16 h-1 bg-emerald-500" />
-                      <div className="flex items-center gap-2">
-                        <span className="w-2 h-2 rounded-full bg-emerald-500" />
-                        <span className="text-emerald-400 text-xs font-black tracking-[0.3em] uppercase">
-                          {card.description}
-                        </span>
-                      </div>
-
+                    <div className="relative">
                       {/* Decorative background element for Card 3 */}
                       <div className="absolute -bottom-6 -right-6 opacity-[0.03] text-emerald-500 rotate-12">
                         <svg width="200" height="200" viewBox="0 0 24 24" fill="currentColor">
